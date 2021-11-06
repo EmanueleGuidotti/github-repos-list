@@ -5,7 +5,7 @@ import {GET_REPOS} from "../../Services/GqlQueries/queries";
 import TableRowComponent from "../../MolecularComponents/TableRow";
 
 const ListPage = (): JSX.Element => {
-    const [start, setStart] = React.useState(1);
+    const [start, setStart] = React.useState(100);
     const {data, loading, error} = useQuery<ReposData>(GET_REPOS, {variables: {start}});
 
     if (loading) {

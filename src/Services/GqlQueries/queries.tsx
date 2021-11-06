@@ -8,6 +8,7 @@ export const GET_REPOS = gql`
       name: "react"
       """
       first: $start
+      end: null
     ) {
       pageInfo {
         startCursor
