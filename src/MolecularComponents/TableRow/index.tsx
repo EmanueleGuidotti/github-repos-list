@@ -2,22 +2,26 @@ import React from "react";
 import {Row} from "../../Interfaces/interfaces";
 import TableItemComponent from "../../AtomicComponents/TableItem";
 import LinkComponent from "../../AtomicComponents/Link";
-import {faStar} from "@fortawesome/free-solid-svg-icons";
+import {faStar, faUtensils} from "@fortawesome/free-solid-svg-icons";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import CSS from 'csstype';
 
 const TableRowComponent = ({totalForks, totalStars, text, link}: Row) => {
     return (
         <div style={componentStyle.tableRowComponent as CSS.Properties}>
-            <TableItemComponent otherStyle={{justifyContent: "start"}}>
+            <TableItemComponent otherStyle={{justifyContent: "start", flex: 2, paddingLeft:"20px"}}>
                 <LinkComponent link={link} text={text} />
             </TableItemComponent>
-            <TableItemComponent children={<p>{totalForks}</p>} />
-            <TableItemComponent
-                children={
+            <TableItemComponent otherStyle={{justifyContent: "start"}} children={
+                <>
+                    <FontAwesomeIcon style={{marginRight: 20}} icon={faUtensils} />
+                    <p>{totalForks}</p>
+                </>
+            } />
+            <TableItemComponent otherStyle={{justifyContent: "start"}} children={
                     <>
+                        <FontAwesomeIcon style={{marginRight: 20}} icon={faStar} />
                         <p>{totalStars}</p>
-                        <FontAwesomeIcon icon={faStar} />
                     </>
                 }
             />

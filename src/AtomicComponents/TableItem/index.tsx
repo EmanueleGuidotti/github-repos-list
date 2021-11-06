@@ -10,7 +10,6 @@ const TableItemContainer: CSS.Properties = {
         paddingLeft: "30",
         flex: "1",
         display: "flex",
-        justifyContent: "center",
         alignItems: "center"
 };
 
