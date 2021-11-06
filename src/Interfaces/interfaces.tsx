@@ -23,3 +23,49 @@ export interface Row {
     link: string;
     text: string;
 }
+
+/**
+ * Pages interfaces
+ */
+
+export interface NumberOfRepos {
+    number_of_repos: number;
+}
+
+export interface RepoDetail {
+    url: string;
+    forks: {
+        totalCount: string;
+    };
+    stargazers: {
+        totalCount: string;
+    };
+    name: string;
+}
+
+/**
+ * Repository interfaces
+ */
+export interface Repo {
+    repo: {
+        url: string;
+        name: string;
+        forks: {
+            totalCount: string;
+        };
+        stargazers: {
+            totalCount: string;
+        };
+    };
+}
+
+export interface ReposData {
+    search: {
+        pageInfo: {
+            endCursor: string;
+            hasNextPage: boolean;
+            startCursor: string;
+        };
+        repos: Repo[];
+    };
+}
