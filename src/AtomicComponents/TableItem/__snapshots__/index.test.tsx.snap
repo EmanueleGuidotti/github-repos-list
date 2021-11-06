@@ -7,7 +7,6 @@ exports[`TableItemComponent render item component 1`] = `
       "alignItems": "center",
       "display": "flex",
       "flex": "1",
-      "justifyContent": "center",
       "paddingLeft": "30",
     }
   }
@@ -39,7 +38,6 @@ exports[`TableItemComponent render item component with children 1`] = `
       "alignItems": "center",
       "display": "flex",
       "flex": "1",
-      "justifyContent": "center",
       "paddingLeft": "30",
     }
   }

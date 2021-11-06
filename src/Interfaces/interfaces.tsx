@@ -14,6 +14,11 @@ export interface Item {
     otherStyle?: CSS.Properties;
 }
 
+export interface Button {
+    text?: string | number;
+    onClickCursor?: () => {} | void;
+}
+
 /**
  * Molecular components interfaces
  */
@@ -22,6 +27,10 @@ export interface Row {
     totalStars: string;
     link: string;
     text: string;
+}
+
+export interface OnClickParent {
+    onClickParent: () => void;
 }
 
 /**
@@ -68,4 +77,12 @@ export interface ReposData {
         };
         repos: Repo[];
     };
+}
+
+export interface ReposDataTotal {
+    repositoryCount: number;
+}
+
+export interface ReposDataTotalResult {
+    search: ReposDataTotal;
 }

@@ -12,6 +12,7 @@ const SuccessMocks = [
             query: GET_REPOS,
             variables: {
                 start: 100,
+                end: null
             },
         },
         result: {

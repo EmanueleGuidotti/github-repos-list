@@ -1,0 +1,501 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TableRowComponent render pagination error state 1`] = `
+<div>
+  error fetching data
+</div>
+`;
+
+exports[`TableRowComponent render pagination loading state 1`] = `
+<div>
+  loading
+</div>
+`;
+
+exports[`TableRowComponent render pagination row component 1`] = `
+<div
+  style={
+    Object {
+      "display": "flex",
+      "flexDirection": "row",
+    }
+  }
+>
+  <button
+    onClick={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flex": "1",
+        "justifyContent": "center",
+        "padding": "5",
+      }
+    }
+  >
+    0
+  </button>
+  <button
+    onClick={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flex": "1",
+        "justifyContent": "center",
+        "padding": "5",
+      }
+    }
+  >
+    100
+  </button>
+  <button
+    onClick={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flex": "1",
+        "justifyContent": "center",
+        "padding": "5",
+      }
+    }
+  >
+    200
+  </button>
+  <button
+    onClick={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flex": "1",
+        "justifyContent": "center",
+        "padding": "5",
+      }
+    }
+  >
+    300
+  </button>
+  <button
+    onClick={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flex": "1",
+        "justifyContent": "center",
+        "padding": "5",
+      }
+    }
+  >
+    400
+  </button>
+  <button
+    onClick={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flex": "1",
+        "justifyContent": "center",
+        "padding": "5",
+      }
+    }
+  >
+    500
+  </button>
+  <button
+    onClick={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flex": "1",
+        "justifyContent": "center",
+        "padding": "5",
+      }
+    }
+  >
+    600
+  </button>
+  <button
+    onClick={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flex": "1",
+        "justifyContent": "center",
+        "padding": "5",
+      }
+    }
+  >
+    700
+  </button>
+  <button
+    onClick={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flex": "1",
+        "justifyContent": "center",
+        "padding": "5",
+      }
+    }
+  >
+    800
+  </button>
+  <button
+    onClick={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flex": "1",
+        "justifyContent": "center",
+        "padding": "5",
+      }
+    }
+  >
+    900
+  </button>
+  <button
+    onClick={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flex": "1",
+        "justifyContent": "center",
+        "padding": "5",
+      }
+    }
+  >
+    1000
+  </button>
+  <button
+    onClick={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flex": "1",
+        "justifyContent": "center",
+        "padding": "5",
+      }
+    }
+  >
+    1100
+  </button>
+  <button
+    onClick={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flex": "1",
+        "justifyContent": "center",
+        "padding": "5",
+      }
+    }
+  >
+    1200
+  </button>
+  <button
+    onClick={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flex": "1",
+        "justifyContent": "center",
+        "padding": "5",
+      }
+    }
+  >
+    1300
+  </button>
+  <button
+    onClick={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flex": "1",
+        "justifyContent": "center",
+        "padding": "5",
+      }
+    }
+  >
+    1400
+  </button>
+  <button
+    onClick={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flex": "1",
+        "justifyContent": "center",
+        "padding": "5",
+      }
+    }
+  >
+    1500
+  </button>
+  <button
+    onClick={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flex": "1",
+        "justifyContent": "center",
+        "padding": "5",
+      }
+    }
+  >
+    1600
+  </button>
+  <button
+    onClick={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flex": "1",
+        "justifyContent": "center",
+        "padding": "5",
+      }
+    }
+  >
+    1700
+  </button>
+  <button
+    onClick={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flex": "1",
+        "justifyContent": "center",
+        "padding": "5",
+      }
+    }
+  >
+    1800
+  </button>
+  <button
+    onClick={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flex": "1",
+        "justifyContent": "center",
+        "padding": "5",
+      }
+    }
+  >
+    1900
+  </button>
+  <button
+    onClick={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flex": "1",
+        "justifyContent": "center",
+        "padding": "5",
+      }
+    }
+  >
+    2000
+  </button>
+  <button
+    onClick={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flex": "1",
+        "justifyContent": "center",
+        "padding": "5",
+      }
+    }
+  >
+    2100
+  </button>
+  <button
+    onClick={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flex": "1",
+        "justifyContent": "center",
+        "padding": "5",
+      }
+    }
+  >
+    2200
+  </button>
+  <button
+    onClick={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flex": "1",
+        "justifyContent": "center",
+        "padding": "5",
+      }
+    }
+  >
+    2300
+  </button>
+  <button
+    onClick={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flex": "1",
+        "justifyContent": "center",
+        "padding": "5",
+      }
+    }
+  >
+    2400
+  </button>
+  <button
+    onClick={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flex": "1",
+        "justifyContent": "center",
+        "padding": "5",
+      }
+    }
+  >
+    2500
+  </button>
+  <button
+    onClick={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flex": "1",
+        "justifyContent": "center",
+        "padding": "5",
+      }
+    }
+  >
+    2600
+  </button>
+  <button
+    onClick={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flex": "1",
+        "justifyContent": "center",
+        "padding": "5",
+      }
+    }
+  >
+    2700
+  </button>
+  <button
+    onClick={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flex": "1",
+        "justifyContent": "center",
+        "padding": "5",
+      }
+    }
+  >
+    2800
+  </button>
+  <button
+    onClick={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flex": "1",
+        "justifyContent": "center",
+        "padding": "5",
+      }
+    }
+  >
+    2900
+  </button>
+  <button
+    onClick={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flex": "1",
+        "justifyContent": "center",
+        "padding": "5",
+      }
+    }
+  >
+    3000
+  </button>
+  <button
+    onClick={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flex": "1",
+        "justifyContent": "center",
+        "padding": "5",
+      }
+    }
+  >
+    3100
+  </button>
+  <button
+    onClick={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flex": "1",
+        "justifyContent": "center",
+        "padding": "5",
+      }
+    }
+  >
+    3200
+  </button>
+  <button
+    onClick={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "display": "flex",
+        "flex": "1",
+        "justifyContent": "center",
+        "padding": "5",
+      }
+    }
+  >
+    3300
+  </button>
+</div>
+`;

@@ -1,12 +1,14 @@
-import React, {useState} from "react";
-import {useQuery} from "@apollo/client";
+import React, {useEffect, useState} from "react";
+import {useLazyQuery, useQuery} from "@apollo/client";
 import {NumberOfRepos, RepoDetail, ReposData} from "../../Interfaces/interfaces";
 import {GET_REPOS} from "../../Services/GqlQueries/queries";
 import TableRowComponent from "../../MolecularComponents/TableRow";
+import PaginationRow from "../../MolecularComponents/PaginationRow";
 
 const ListPage = (): JSX.Element => {
     const [start, setStart] = React.useState(100);
-    const {data, loading, error} = useQuery<ReposData>(GET_REPOS, {variables: {start}});
+    const [end, setEnd] = React.useState<string | null>(null);
+    const { error, loading, data } = useQuery<ReposData>(GET_REPOS, {variables: {start, end}});
 
     if (loading) {
         return <div>loading</div>;
@@ -16,6 +18,10 @@ const ListPage = (): JSX.Element => {
         return <div>error fetching data</div>;
     }
 
+    const onClick = (endCursor: string): void => {
+        setEnd(endCursor);
+    };
+
     return (
         <>
             {data?.search.repos.map(({repo: {url, forks, stargazers, name}}, index: number) => (
@@ -23,6 +29,7 @@ const ListPage = (): JSX.Element => {
                     <TableRowComponent totalForks={forks.totalCount} totalStars={stargazers.totalCount} link={url} text={name} />
                 </div>
             ))}
+            <PaginationRow onClickParent={() => onClick(data?.search.pageInfo.endCursor as string)}></PaginationRow>
         </>
     );
 };
