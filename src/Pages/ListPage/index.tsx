@@ -55,10 +55,7 @@ const ListPage = (): JSX.Element => {
       {loading && <div>Loading...</div>}
       {error && <div>Error fetching data....</div>}
       <div>
-        <div
-          className="site-layout-background"
-          style={{ padding: 24, minHeight: 380, background: "#dedede" }}
-        >
+        <div style={{ padding: 24, minHeight: 380, background: "#dedede" }}>
           {data &&
             data?.search.repos.map(
               ({ repo: { url, forks, stargazers, name } }, index: number) => (

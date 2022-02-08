@@ -18,7 +18,6 @@ const PaginationRow = ({
 }: PaginationInterface) => {
   return (
     <Pagination
-      data-testid="pagination"
       defaultCurrent={current as number}
       total={count}
       defaultPageSize={100}

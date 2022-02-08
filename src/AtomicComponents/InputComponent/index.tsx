@@ -3,7 +3,7 @@ import React from "react";
 import { GenericInput } from "../../Interfaces/interfaces";
 
 /**
- * Render a input text component
+ * Render an input text component
  *
  * @prop {string} id - The id to identify the input
  * @prop {string} placeholder - The placeholder text
