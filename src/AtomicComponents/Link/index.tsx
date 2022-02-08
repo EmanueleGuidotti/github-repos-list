@@ -1,17 +1,27 @@
+import { Link as LinkInterface } from "../../Interfaces/interfaces";
+import CSS from "csstype";
+import Link from "antd/lib/typography/Link";
+import "antd/dist/antd.css";
 import React from "react";
-import {Link} from "../../Interfaces/interfaces";
-import CSS from 'csstype';
 
-const LinkComponent = ({link, text}: Link) => {
-    return (
-        <a style={linkStyle} href={link}>
-            {text}
-        </a>
-    );
+/**
+ * Render a link component
+ *
+ * @prop {string} link - The link to follow
+ * @prop {string} text - The text to render
+ *
+ * @returns {JSX.Element}
+ */
+const LinkComponent = ({ link, text }: LinkInterface) => {
+  return (
+    <Link href={link} target="_blank" style={linkStyle as React.CSSProperties}>
+      {text}
+    </Link>
+  );
 };
 
 const linkStyle: CSS.Properties = {
-    textDecoration: "underline",
+  textDecoration: "underline",
 };
 
 export default LinkComponent;

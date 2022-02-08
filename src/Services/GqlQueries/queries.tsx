@@ -1,15 +1,15 @@
-import {gql} from "@apollo/client";
+import { gql } from "@apollo/client";
 
 export const GET_REPOS = gql`
-  query ($start: Int!, $end: String) {
+  query ($start: Int!, $search: String!, $before: String, $after: String) {
     search(
       type: REPOSITORY
-      query: """
-      name: "react"
-      """
+      query: $search
       first: $start
-      after: $end
+      after: $after
+      before: $before
     ) {
+      repositoryCount
       pageInfo {
         startCursor
         hasNextPage
@@ -30,19 +30,6 @@ export const GET_REPOS = gql`
           }
         }
       }
-    }
-  }
-`;
-
-export const GET_REPOS_TOTAL = gql`
-  query {
-    search(
-      type: REPOSITORY
-      query: """
-      name: "react"
-      """
-    ) {
-      repositoryCount
     }
   }
 `;

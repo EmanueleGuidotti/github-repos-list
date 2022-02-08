@@ -1,7 +1,8 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`GenericButtonComponent render Generic Button component 1`] = `
+exports[`GenericButtonComponent Should render Generic Button component 1`] = `
 <button
+  className="ant-btn"
   onClick={[Function]}
   style={
     Object {
@@ -12,7 +13,10 @@ exports[`GenericButtonComponent render Generic Button component 1`] = `
       "padding": "5",
     }
   }
+  type="button"
 >
-  100
+  <span>
+    100
+  </span>
 </button>
 `;

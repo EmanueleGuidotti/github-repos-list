@@ -1,13 +1,17 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`LinkComponent render link component 1`] = `
+exports[`LinkComponent Should render link component 1`] = `
 <a
+  className="ant-typography"
   href="https://github/test-link/"
+  rel="noopener noreferrer"
   style={
     Object {
+      "WebkitLineClamp": undefined,
       "textDecoration": "underline",
     }
   }
+  target="_blank"
 >
   Some github repo
 </a>

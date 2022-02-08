@@ -1,19 +1,21 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`TableItemComponent render item component 1`] = `
+exports[`TableItemComponent Should render item component 1`] = `
 <div
   style={
     Object {
       "alignItems": "center",
       "display": "flex",
       "flex": "1",
-      "paddingLeft": "30",
+      "paddingBottom": "20px",
+      "paddingLeft": "30px",
+      "paddingTop": "20px",
     }
   }
 />
 `;
 
-exports[`TableItemComponent render item component with an external style and children 1`] = `
+exports[`TableItemComponent Should render item component with an external style and children 1`] = `
 <div
   style={
     Object {
@@ -21,7 +23,9 @@ exports[`TableItemComponent render item component with an external style and chi
       "display": "flex",
       "flex": "1",
       "justifyContent": "start",
-      "paddingLeft": "30",
+      "paddingBottom": "20px",
+      "paddingLeft": "30px",
+      "paddingTop": "20px",
     }
   }
 >
@@ -31,14 +35,16 @@ exports[`TableItemComponent render item component with an external style and chi
 </div>
 `;
 
-exports[`TableItemComponent render item component with children 1`] = `
+exports[`TableItemComponent Should render item component with children 1`] = `
 <div
   style={
     Object {
       "alignItems": "center",
       "display": "flex",
       "flex": "1",
-      "paddingLeft": "30",
+      "paddingBottom": "20px",
+      "paddingLeft": "30px",
+      "paddingTop": "20px",
     }
   }
 >

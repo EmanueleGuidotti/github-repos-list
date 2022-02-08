@@ -1,14 +1,13 @@
-import React from 'react';
-import {ApolloProvider} from "@apollo/client";
+import { ApolloProvider } from "@apollo/client";
 import ListPage from "./Pages/ListPage";
-import {client} from "./Services/ApolloClient/client";
+import { client } from "./Services/ApolloClient/client";
 
 function App() {
-    return (
-        <ApolloProvider client={client}>
-            <ListPage></ListPage>
-        </ApolloProvider>
-    );
+  return (
+    <ApolloProvider client={client}>
+      <ListPage></ListPage>
+    </ApolloProvider>
+  );
 }
 
 export default App;
